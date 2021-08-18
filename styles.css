@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("./SEGA.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT";
+  font-weight: 200;
+  color: #0ccac4;
+  padding-bottom: 2.5rem;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #26496c;
+}
+
+.last-name {
+  border-bottom: 5px solid #26496c;
+  line-height: 5rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}
+
+nav {
+  width: 100px;
+  height: 70px;
+  float: right;
+}
+
+img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.work {
+  display: block;
+  margin-top: 2.4rem;
+  font-size: 1.1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+  border-bottom: 5px solid #eeeeee;
+}
+
+.work:hover {
+  border-bottom: 5px solid #0ccac4;
+  /* border-bottom: 5px solid #26496c; */
+}
